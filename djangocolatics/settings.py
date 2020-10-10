@@ -122,7 +122,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATI_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://django-colatics.herokuapp.com/"
