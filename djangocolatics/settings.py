@@ -127,5 +127,6 @@ STATICFILES_DIRS = (
 )
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://django-colatics.herokuapp.com/"
+    "https://django-colatics.herokuapp.com/",
+    "https://react-colatics.vercel.app/"
 ]
